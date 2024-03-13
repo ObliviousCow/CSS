@@ -1,0 +1,17 @@
+<html>
+
+<head> <!--Kopytko-->
+    <title>styl wewnetrzny</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- wewnetrzny -->
+    <style>
+        p {
+            color: #ff00ff;
+            font-size: 63px;
+        }
+    </style>
+</head>
+
+<body bgcolor="silver">
+    <p> Kopytko -> wewnętrzne<p>
+</body

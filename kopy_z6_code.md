@@ -14,3 +14,12 @@
     <p>-_- zmęczenie</p>
     ;) oczko
 </body>
+--------------------------------
+body {
+    color: #0000ff;
+    font-size: 30pt;
+}
+p {
+    color: rgb(127, 255, 148);
+    font-size: 20pt;
+}
