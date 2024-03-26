@@ -4,47 +4,27 @@
     </head>
     <body>
         <ol>
-            <li>Sposób 1: Zewnętrzny arkusz stylów</li>
-            <ul>
-                <li>Wstawianie: <\link rel="Stylesheet" type="text/css" href="style.css" /></li>
-                <li>Uwagi: </li>
-                <ul>
-                    <li>Znacznik LINK może znajdować się tylko i wyłącznie w nagłówku dokumentu.</li>
-                    <li>Można dołączyć dowolną liczbę zewnętrznych arkuszy stylów.</li>
-                    <li>W przypadku konfliktów, ważniejsze będą deklaracje z arkusza dołączonego później.</li>
-                    <li>Zewnętrzny arkusz stylów jest on zwykłym plikiem tekstowym. Do tworzenia i edytowania wystarczy zwykły edytor tekst.</li>
-                    <li>Można się posłużyć specjalnym edytorem CSS.</li>
-                    <li>Należy jedynie pamiętać, że plik będący zewnętrznym arkuszem stylów musi mieć rozszerzenie *.css.</li>
-                </ul>
+          <li>Selektor prosty</li>
+          <li>Selektor uniwersalny</li>
+          <li>Selektor potomka</li>
+          <li>Selektor dziecka</li>
+          <li>Selektor braci</li>
+          <li>Selektor atrybutu</li>
+          <ol type="a">
+            <li>prosty selektor atrybutu</li>
+            <li>selektor atrybutu o określonej wartości</li>
+            <li>selektor atrybutu zawierający określony wyraz</li>
+          </ol>
+          <li>Selektory specjalne</li>
+          <ol type="a">
+            <li>selektor klasy</li>
+            <li>pseudoklasyk</li>
+            <li>selektory pseudoelementów</li>
+            <ul style='list-style-type: "-";'>
+              <li>pierwsza linia</li>
+              <li>pierwsza litera</li>
             </ul>
-            <li>Sposób 2: Styl liniowy/linijkowy/lokalny/wpisany</li>
-            <ul>
-                <li>Wstawianie: <\selektor style="nasze style">treść bloku<\/selektor></li>
-                <li>Uwagi: </li>
-                <ul>
-                    <li>Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (nagłówek), td</li>
-                    <li>Styl wpisany jest wprowadzony w wybranym znaczniku i nie ma wpływu na pozostałe znaczniki.</li>
-                </ul>
-            </ul>
-            <li>Sposób 3: Wewnętrzny arkusz stylów</li>
-            <ul>
-                <li>Wstawianie: <\style>selektor1 {cecha: wartość; cecha: wartość...}<\/style></li>
-                <li>Uwagi: </li>
-                <ul>
-                    <li>Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (nagłówek), td</li>
-                    <li>Styl wpisany jest wprowadzony w wybranym znaczniku i nie ma wpływu na pozostałe znaczniki.</li>
-                    <li>Selektory i cechy są oddzielone średnikami.</li>
-                </ul>
-            </ul>
-            <li>Sposób 4: Importowany arkusz stylów</li>
-            <ul>
-                <li>Wstawianie: <\style type="text/css">@import url(adres);<\/style></li>
-                <li>Uwagi: </li>
-                <ul>
-                    <li>Może znajdować się w dowolnym miejscu w obrębie całego Internetu (wtedy podajemy adres internetowy).</li>
-                    <li>Oprócz importu arkusza, możesz umieścić pomiędzy znacznikami <\style> a <\/style> dodatkowo własne reguły stylów, a nawet polecenie importu drugiego arkusza.</li>
-                </ul>
-            </ul>
+          </ol>
         </ol>
     </body>
 </html>

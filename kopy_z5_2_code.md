@@ -6,11 +6,11 @@
         <LINK href="kopy_z5_2.css" rel="stylesheet" type="text/CSS">
     </head>
     <body bgcolor="silver">
-        <p> Kopytko -> zewnetrzny </p>
+        <p> Kopytko -> zewnetrzny <br>Lua to najlepszy język programowania</p>
     </body>
 </html>
 --------------------------------
-p { 
+p {
     color : #800080;
     font-size : 53px;
 }

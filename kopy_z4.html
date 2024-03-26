@@ -1,0 +1,98 @@
+<html>
+    <head>
+      <style media="screen">
+        div.naglowek {
+          font-size: 25px;
+          font-weight: bold;
+        }
+        div.punkt {
+          font-size: 20px;
+          font-weight: bold;
+        }
+        div.kod {
+          font-size: 15px;
+          font-family: monospace;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="naglowek">
+        Sposoby podłączania styli do strony (skrócone zestawienie).
+      </div>
+      <ol>
+        <div class="punkt">
+          <li><u>Zewnętrzny</u> arkusz stylów.</li>
+        </div>
+        <div class="kod">
+          <table border="1" style="border-collapse:collapse;" width=80%>
+            <tr>
+              <td>
+                &lthead&gt<br>
+                &nbsp&nbsp&nbsp&nbsp&ltlink rel=&quotStylesheet&quot type=&quottext/css&quot href=&quotstyle.css&quot/&gt <br>
+                &lt/head&gt
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="punkt">
+          <li>Styl <u>lokalny</u> inaczej: (styl wpisany, liniowy, linijkowy, w linii) czyli dopisanie arkusza do wybranego bloku treści strony.</li>
+        </div>
+        <div class="kod">
+          <table border="1" style="border-collapse:collapse;" width=80%>
+            <tr>
+              <td>
+                &ltselektor style=&quotcecha1: wartośc1; cecha2: wartość2...&quot&gt...&lt/selektor&gt
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="punkt">
+          <li><u>Wewnętrzny</u> arkusz stylów.</li>
+        </div>
+        <div class="kod">
+          <table border="1" style="border-collapse:collapse;" width=80%>
+            <tr>
+              <td>
+                &lthead&gt<br>
+                <b>&nbsp&nbsp&nbsp&nbsp&ltstyle type=&quottext/css&quot&gt</b><br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspselektor1 { cecha: wartość; cecha2: wartość2... }<br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspselektor2 { cecha: wartość; cecha2: wartość2... }<br>
+                <b>&nbsp&nbsp&nbsp&nbsp&lt/style&gt</b><br>
+                &lt/head&gt
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="punkt">
+          <li><u>Alternatywny</u> arkusz stylów.</li>
+        </div>
+        <div class="kod">
+          <table border="1" style="border-collapse:collapse;" width=80%>
+            <tr>
+              <td>
+                &lthead&gt<br>
+                &nbsp&nbsp&nbsp&nbsp&ltlink rel=&quotStylesheet&quot type=&quottext/css&quot href=&quotstyle.css&quot title&quotNazwa domyślna&quot /&gt<br>
+                &nbsp&nbsp&nbsp&nbsp&ltlink rel=&quotAlternate stylesheet&quot type=&quottext/css&quot href=&quotstyle1.css&quot title&quotNazwa 1&quot /&gt<br>
+                &nbsp&nbsp&nbsp&nbsp&ltlink rel=&quotAlternate stylesheet&quot type=&quottext/css&quot href=&quotstyle2.css&quot title&quotNazwa 2&quot /&gt<br>
+                &lt/head&gt
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="punkt">
+          <li><u>Import</u> arkusza stylów.</li>
+        </div>
+        <div class="kod">
+          <table border="1" style="border-collapse:collapse;" width=80%>
+            <tr>
+              <td>
+                &ltstyle type=&quottext/css&quot&gt<br>
+                &nbsp&nbsp&nbsp&nbsp@import url(adres zewnętrznego arkusza stylów);<br>
+                &lt/style&gt
+              </td>
+            </tr>
+          </table>
+        </div>
+      </ol>
+    </body>
+</html>

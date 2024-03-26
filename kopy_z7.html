@@ -6,10 +6,42 @@
 
     <body bgcolor="white">
         <ol>
-            <h1><li>Na co pozwala styl lokalny, który element będzie formatowany z użyciem stylu lokalnego</h1><br>
-            <p style="font-family:Arial">Tylko jeden element HTMLa, np <... style="color ..."></p>
+            <h1><li>Na co pozwala styl lokalny, który element będzie formatowany z użyciem stylu lokalnego?</h1>
+              <p style="font-family:Arial">Tylko jeden element HTMLa zostaje zmieniony. Inne elementy ignorują styl, bo nie dotyczy on ich.</p>
             </li>
-
+            <h1><li>Składnia teoretyczna</h1>
+              <p style="font-family:Arial">
+                <table border="1" style="border-collapse:collapse">
+                  <tr>
+                    <td>
+                      &ltp style=&quotfont-family:Arial&quot&gt <i>TUTAJ TEKST ZE ZASTOSOWANYM STYLEM</i> &lt/p&gt
+                    </td>
+                  </tr>
+                </table>
+              </p>
+            </li>
+            <h1><li>Co może być selektorem?</h1>
+              <p style="font-family:Arial">
+                Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (nagłówek), td<br>
+                (komórka tabeli) i inne. To właśnie elementom znajdującym się pomiędzy tymi znacznikami,<br>
+                nadajemy atrybuty formatowania.<br>
+              </p>
+            </li>
+            <h1><li>Co wipisujemy jako "cechę", jakie jest znaczenie średników?</h1>
+              <p style="font-family:Arial">
+                Jako "cecha" czy inaczej własność bądź właściwość (ang. "property") należy wpisać o jakie <br>
+                konkretnie atrybuty formatowania nam chodzi (np. kolor tekstu - color). <br>
+                Jednemu selektorowi możemy nadać kilka atrybutów (cech). Średniki są po to, aby oddzielić <br>
+                kilka atrybutów. <br>
+              </p>
+            </li>
+            <h1><li>Co wipisujemy jako "wartość" (w deklaracji stylu)?</h1>
+              <p style="font-family:Arial">
+                Jako wyraz "wartość" (w deklaracji stylu) wpisujemy dokładną wartość atrybutu (np. dla <br>
+                koloru tekstu będzie to: red, blue czy też #31F4A5 itd.). Wartość zależy ściśle od cechy, po <br>
+                której stoi w deklaracji. <br>
+              </p>
+            </li>
         </ol>
     </body>
 

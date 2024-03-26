@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <ol>
+      <h1><li>Składnia teoretyczna: </li></h1>
+      <p style="font-family:Arial">
+        <table border="1" style="border-collapse:collapse;" width=80%>
+          <tr>
+            <td style="font-family:Arial;">
+              &lthead&gt<br>
+              &nbsp&nbsp&nbsp&nbsp&ltlink rel=&quotStylesheet&quot type=&quottext/css&quot href=&quotstyle.css&quot/&gt <br>
+              &lt/head&gt
+            </td>
+          </tr>
+        </table>
+      </p>
+      <h1><li>Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz ile razy możne on występować w dokumencie, jako podłączenie stylu CSS?</li></h1>
+      <p style="font-family:Arial">
+        W części &lthead&gt dokumentu, znacznik &ltlink&gt, niezliczoną ilość razy.
+      </p>
+      <h1><li>Jaka jest najprostsza forma wstawiania stylu zewnętrznego?</li></h1>
+      <p style="font-family:Arial">
+        wpisanie linijki kodu z punktu 1. w obszar head.
+      </p>
+      <h1><li>Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad musi być zachowana przy większej ilości dołączanych styli?</li></h1>
+      <p style="font-family:Arial">
+        Niezliczona ilość, zasadą jest późniejsze używanie deklaracji z arkusza stylów.
+      </p>
+      <h1><li>Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te same style są definiowane w różnych arkuszach styli podłączone do tego samego arkusza</li></h1>
+      <p style="font-family:Arial">
+        Używany jest styl zdefiniowany najpóźniej.
+      </p>
+      <h1><li>Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?</li></h1>
+      <p style="font-family:Arial">
+        tworzysz plik *.css, dodajesz znaczniki, cechy i wartości poprzez edytor tekstowy, np. notepad, zapisujesz plik
+      </p>
+      <h1><li>Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS?</li></h1>
+      <p style="font-family:Arial">
+        W sposób wizualny można zmieniać znaczniki i ich cechy, istnieją edytory online.
+      </p>
+      <h1><li>Jakie rozszerzenie posiadają plik będący zewnętrznym arkuszem styli?</li></h1>
+      <p style="font-family:Arial">
+        .css
+      </p>
+      <h1><li>Jakie są zalety zewnętrznego arkusza styli?</li></h1>
+      <p style="font-family:Arial">
+        <ol>
+          <li>wszystkie nasze strony w obrębie całego serwisu mogą mieć pewne wspólne cechy</li>
+          <li>jeśli w ostatniej chwili zdecydujemy się zmienić np. rodzaj czcionki na wszystkich stronach, możemy to zrobić, modyfikując jedynie zewnętrzny arkusz stylów, bez konieczności zmiany każdej strony osobno. </li>
+        </ol>
+      </p>
+      <h1><li>Uwagi na temat pisania w CSS.</li></h1>
+      <p style="font-family:Arial">
+        <ul type=square>
+          <li>Znacznik LINK może znajdować się tylko i wyłącznie w nagłówku dokumentu.(sekcja head)</li>
+          <li>można dołączyć dowolną liczbę zewnętrznych arkuszy stylów</li>
+          <li>W przypadku konfliktów, ważniejsze będą deklaracje z arkusza dołączonego później.</li>
+          <li>Zewnętrzny arkusz stylów jest on zwykłym plikiem tekstowym. Do tworzenia i edytowania wystarczy zwykły edytor tekst</li>
+          <li>Można się posłużyć specjalnym edytorem CSS</li>
+          <li>Należy jedynie pamiętać, że plik będący zewnętrznym arkuszem stylów musi mieć rozszerzenie *.css</li>
+        </ul>
+      </p>
+    </ol>
+  </body>
+</html>
