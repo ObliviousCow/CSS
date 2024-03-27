@@ -1,0 +1,81 @@
+<html lang="pl" dir="ltr">
+  <head>
+    <style media="screen">
+      div.pt {
+        font-size: 10pt;
+      }
+      div.pc {
+        font-size: 1pc;
+      }
+      div.mm {
+        font-size: 5mm;
+      }
+      div.cm {
+        font-size: 0.5cm;
+      }
+      div.in {
+        font-size: 0.2in;
+      }
+      div.em {
+        font-family: Arial;
+        font-size: em;
+      }
+      div.ex {
+        font-size: ex;
+      }
+      div.px {
+        font-size: 12px;
+      }
+      div.pro {
+        font-size: 20%;
+      }
+    </style>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h4><u>Jednostki miar bezwzględnych w CSS</u></h4>
+    <ol type="I">
+      <li>pt - punkty (1pkt 1/72 cala). Przykład tekstu z rozmiarem 10 pkt:</li>
+      <div class="pt">
+        10 pt
+      </div>
+      <li>pc -pica (1 pica = 12 punktów). Przykład tekstu z rozmiarem 1 pc:</li>
+      <div class="pc">
+        1 pc
+      </div>
+      <li>mm - milimetry. Przykład tekstu z rozmiarem 5 mm:</li>
+      <div class="mm">
+        5 mm
+      </div>
+      <li>cm - centrymetry. Przykład tekstu z rozmiarem połowy cm</li>
+      <div class="cm">
+        0.5 cm - taki sam rozmiar jak 5 mm.
+      </div>
+      <li>in - cale. Przykład tekstu z rozmiarem 1/5 cala.</li>
+      <div class="in">
+        0.2 in
+      </div>
+    </ol>
+    <h4><u>Jednostki miar względnych w CSS</u></h4>
+    <ol type="I">
+      <li>em - jednostka odpowiadająca aktualnej czcionce. Przykład tekstu Arial:</li>
+      <div class="em">
+        Arial
+      </div>
+      <li>ex - wielkość zbliżona do wysokości litery "x". Przykład:</li>
+      <div class="ex">
+        To jest rozmiar ex.
+      </div>
+      <li>px - piksel, zależny od rozdzielczości monitora. Przykład 12 pikseli:</li>
+      <div class="px">
+        12 px
+      </div>
+      <li>% - procent monitora LUB bierzącego frame'a. Przykład 20% na 20%:</li>
+      <table width=20% height=20% border="1" align="center" style="border-collapse:collapse">
+        <tr>
+          <td></td>
+        </tr>
+      </table>
+    </ol>
+  </body>
+</html>
