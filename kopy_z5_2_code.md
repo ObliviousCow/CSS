@@ -9,7 +9,7 @@
         <p> Kopytko -> zewnetrzny <br>Lua to najlepszy język programowania</p>
     </body>
 </html>
---------------------------------
+------------------V KOD ARKUSZA CSS V------------------
 p {
     color : #800080;
     font-size : 53px;

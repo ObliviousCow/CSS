@@ -11,7 +11,7 @@
 <body bgcolor="silver">
     <p>importowany arkusz<br>Lua to najlepszy język programowania</p>
 </body>
---------------------------------
+------------------V KOD ARKUSZA CSS V------------------
 p {
     color : #800000;
     font-size : 73px

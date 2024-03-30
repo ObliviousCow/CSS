@@ -3,7 +3,7 @@
 <head>
     <title>styl wewnetrzny</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <LINK href="kopy_z6.css" rel="stylesheet" type="text/CSS">
+    <LINK href="kopy_z15.css" rel="stylesheet" type="text/CSS">
 </head>
 
 <body>
@@ -16,10 +16,10 @@
 </body>
 ------------------V KOD ARKUSZA CSS V------------------
 body {
-    color: #0000ff;
+    color: rgb(50%,47%,82%);
     font-size: 30pt;
 }
 p {
-    color: rgb(127, 255, 148);
+    color : #6D9977;
     font-size: 20pt;
 }
