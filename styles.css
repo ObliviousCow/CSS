@@ -1,0 +1,26 @@
+body {
+    background-color: #161616;
+}
+
+table.tab {
+    width: 90%;
+    height: 30%;
+}
+table.tab tr td div { 
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(32, 32, 32) 40%, rgb(32, 32, 32) 60%, rgb(0, 0, 0));
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 60px;
+    font-size: large;
+    padding: 20px;
+}
+table.tab tr td div a {
+    color: #889eff
+}
+table.tab tr td div iframe {
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
