@@ -1,5 +1,5 @@
 body {
-    background-color: #161616;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(32, 32, 32) 40%, rgb(32, 32, 32) 60%, rgb(0, 0, 0));
 }
 
 table.tab {
@@ -7,7 +7,7 @@ table.tab {
     height: 30%;
 }
 table.tab tr td div { 
-    background-image: linear-gradient(rgb(0, 0, 0), rgb(32, 32, 32) 40%, rgb(32, 32, 32) 60%, rgb(0, 0, 0));
+    background-color: rgb(15, 15, 15);
     width: 100%;
     height: 100%;
     color: white;
