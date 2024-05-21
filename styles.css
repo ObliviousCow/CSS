@@ -53,7 +53,12 @@ table.tab tr td div {
     vertical-align: middle;
 }
 table.tab tr td div a {
-    color: #889eff
+    color: #889eff;
+    transition: 0.3s;
+}
+table.tab tr td div a:hover {
+    font-size: 20px;
+    transition: 0.3s;
 }
 table.tab tr td div a.old {
     color: #6a6e83
