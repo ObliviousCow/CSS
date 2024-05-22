@@ -3,6 +3,13 @@
 <head>
     <META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=utf8">
     <style>
+        .button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+        }
+
         button {
             background-color: rgb(70, 70, 70);
             border-style: outset;
@@ -13,8 +20,8 @@
             height: 50px;
             border-radius: 20px;
             transition: 0.2s;
-            margin-left: 42%;
         }
+
         button:hover {
             background-color: rgb(49, 49, 49);
             width: 250px;
@@ -23,15 +30,11 @@
             transition: 0.2s;
             box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
             border-radius: 25px;
-            margin-left: 40%;
         }
+
         a {
             text-decoration: none;
             color: rgb(255, 255, 255);
-            transition: 0.3s;
-        }
-        a:hover {
-            color: rgb(162, 255, 255);
             transition: 0.3s;
         }
     </style>
@@ -39,9 +42,12 @@
     <h1 align="center">13 Tech. Gdańsk<br>przyjazna szkoła<br>Gdańsk, 24 lutego 2014 r.</h1>
     <marquee bgcolor="red">Pozdrowienia</marquee>
     <br>
-    <button>
-        <b><a href="mailto:Amalgat.Ate@proton.me">E-mail</a></b>
-    </button>
+    <div class="button-container">
+        <button>
+            <b><a href="mailto:Amalgat.Ate@proton.me">E-mail</a></b>
+        </button>
+    </div>
+
 </body>
 
 </html>

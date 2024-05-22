@@ -26,12 +26,14 @@ body.main {
     );
 }
 marquee {
-    border-radius: 7px;
     margin-top: 20px;
+    background-color: #2b2b2b;
+    height: 20px;
     transition-duration: 0.5s;
 }
 marquee:hover {
-    background-color: #00ff00;
+    background-color: #5a5a5a;
+    height: 30px;
     transition-duration: 0.5s;
 }
 table.tab {
