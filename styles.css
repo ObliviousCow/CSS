@@ -65,6 +65,9 @@ table.tab tr td div a:hover {
 table.tab tr td div a.old {
     color: #6a6e83
 }
+table.tab tr td div a.boxes {
+    color: rgb(87, 190, 109)
+}
 table.tab tr td div iframe {
     width: 100%;
     height: 100%;
