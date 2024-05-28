@@ -35,6 +35,13 @@
             border-radius: 5px;
             text-align: center;
             font-size: 20px;
+            transition: 0.4s;
+        }
+        td:hover {
+            background-color: rgb(161, 161, 161);
+            border-radius: 10px;
+            transition: 0.4s;
+            font-weight: bold;
         }
         p {
             font-family: Arial, Helvetica, sans-serif;
@@ -43,10 +50,58 @@
         div.margin-box {
             height: 300px;
             width: 600px;
-            background-color: aquamarine;
+            background-color: blue;
             border-radius: 20px;
+            color: blue;
+            text-align: center;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            transition: 0.4s;
         }
-        
+        div.margin-box:hover {
+            color: white;
+            transition: 0.4s;
+        }
+        div.border-box {
+            height: 250px;
+            width: 550px;
+            background-color: black;
+            border-radius: 20px;
+            color: black;
+            transition: 0.4s;
+            margin: auto;
+        }
+        div.border-box:hover {
+            color: white;
+            transition: 0.4s;
+        }
+        div.padding-box {
+            height: 200px;
+            width: 500px;
+            background-color: purple;
+            border-radius: 20px;
+            color: purple;
+            transition: 0.4s;
+            margin: auto;
+        }
+        div.padding-box:hover {
+            color: white;
+            transition: 0.4s;
+        }
+        div.content-box {
+            height: 150px;
+            width: 450px;
+            background-color: cornflowerblue;
+            border-radius: 20px;
+            color: cornflowerblue;
+            transition: 0.4s;
+            margin: auto;
+        }
+        div.content-box:hover {
+            color: white;
+            transition: 0.4s;
+        }
     </style>
 </head>
 <body>
@@ -104,10 +159,13 @@
         </p>
         <h1><li>Wstaw grafikę obrazującą model pudełkowy</li></h1>
         <div class="margin-box">
+            Margin - zewnętrzna granica
             <div class="border-box">
+                Boder - granica oddzielająca margin od padding
                 <div class="padding-box">
+                    Padding - wewnęrzny odstęp od border'a
                     <div class="content-box">
-                        
+                        Content - obszar w którym znajdują się elementy
                     </div>
                 </div>
             </div>
